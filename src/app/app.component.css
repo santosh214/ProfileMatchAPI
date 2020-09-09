@@ -66,6 +66,11 @@ input{
 button{
 margin-top: 15px;
 margin-bottom: 35px;
+transition: width 2s;
+width: 10%;
+}
+button:hover{
+  width: 15%;
 }
 
 /* contact section start  */
