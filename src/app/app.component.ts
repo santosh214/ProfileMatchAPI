@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public inputName=" ";
-  public imgurl="../assets/images/img.png";
+  public imgurl="./assets/images/img.png";
   public src="https://joeschmoe.io/api/v1/";
   public nameInput="";
 public change;
