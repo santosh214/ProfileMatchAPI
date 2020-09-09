@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Hello-World';
+  public inputName=" ";
+  public imgurl="../assets/images/img.png";
+  public src="https://joeschmoe.io/api/v1/";
+  public nameInput="";
+public change;
+  fun(){
+ this.imgurl=this.src+this.inputName;
+} 
 }

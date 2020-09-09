@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+#homePage{
+    width: 100vw;
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/img12.jpg");
+    filter: blur(100%);
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+margin-right: auto;
+display: block;
+position: relative;
+}
+.homePageDiv{
+}
+#p1{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Fredericka the Great', cursive;
+color: rgba(66, 248, 209, 0.938);
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+    font-family: 'Sacramento', cursive;
+}
+
+
+#homePage{
+    text-align: center;
+}
+#homePage label{
+    font-family: 'Sacramento', cursive;
+    font-size: 25px;
+    font-weight: 700;
+    color: plum;
+}
+img:hover{
+    border: 12px solid black;
+
+}
+
+input{
+    color: brown;
+    text-align: center;
+    padding: 15px;
+    border-radius: 55%;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+}
+button{
+margin-top: 15px;
+margin-bottom: 35px;
+}
+
+/* contact section start  */
+
+#contact{
+
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    }
+    .contact_div_h3{
+      color:  white;
+      text-align: center;
+    }
+    .contact_div_p{
+      color:  white;
+      text-align: center;
+    }
+    .social_links {
+      left: 50%;
+      text-align: center;
+    }
+    .social_links i{
+      padding: 15px;
+      background-color:rgb(252, 252, 252);
+      border-radius: 45px;
+      margin: 20px;
+      
+    
+    
+    }
+     .fa-facebook-f{
+      background-color: blue;
+    }
+    
+      .fa-instagram{
+      color: red;
+    }
+    
+    #contact{
+      margin-top: -17px;
+      padding-top: 35px;
+    }
+    .contact_div_p{
+      color: rgb(0, 255, 149);
+    }
+    
+    .contact_div_h3{
+      color: rgb(0, 183, 255);
+    }
+    em{
+      border-bottom: 1px solid rgb(51, 255, 0);
+      padding-bottom: 5px;
+      color: rgb(255, 127, 170);
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+
+/* contact section end */
+
+
+@media only screen and (max-width: 600px) {
+#p1{
+    padding-top: 50px;
+}
+h1{
+    font-size:36px;
+}
+}
