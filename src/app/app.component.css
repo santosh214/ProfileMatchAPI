@@ -49,10 +49,7 @@ h1{
     font-weight: 700;
     color: plum;
 }
-img:hover{
-    border: 12px solid black;
 
-}
 
 input{
     color: brown;
@@ -62,6 +59,7 @@ input{
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: none;
+    outline: none;
 }
 button{
 margin-top: 15px;
@@ -78,17 +76,15 @@ button:hover{
 #contact{
 
     width: 100vw;
-    height: auto;
-    background-color: black;
+    height: 30%;
+    /* background-color: black; */
+    margin-top: 55px;
     }
     .contact_div_h3{
       color:  white;
       text-align: center;
     }
-    .contact_div_p{
-      color:  white;
-      text-align: center;
-    }
+
     .social_links {
       left: 50%;
       text-align: center;
@@ -98,7 +94,7 @@ button:hover{
       background-color:rgb(252, 252, 252);
       border-radius: 45px;
       margin: 20px;
-      
+      display: inline-block;
     
     
     }
@@ -110,12 +106,10 @@ button:hover{
       color: red;
     }
     
-    #contact{
-      margin-top: -17px;
-      padding-top: 35px;
-    }
+  
     .contact_div_p{
       color: rgb(0, 255, 149);
+      text-align: center;
     }
     
     .contact_div_h3{
@@ -138,5 +132,8 @@ button:hover{
 }
 h1{
     font-size:36px;
+}
+#contact{
+margin-top: 85px;
 }
 }
